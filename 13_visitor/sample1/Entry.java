@@ -6,7 +6,7 @@ public abstract class Entry implements Element {
     public Entry add(Entry entry) throws FileTreatmentException {
         throw new FileTreatmentException();
     }
-    public Iterator<Element> iterator() throws FileTreatmentException {
+    public Iterator<Entry> iterator() throws FileTreatmentException {
         throw new FileTreatmentException();
     }
     public String toString() {

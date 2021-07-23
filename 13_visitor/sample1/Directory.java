@@ -22,7 +22,7 @@ public class Directory extends Entry {
         dir.add(entry);
         return this;
     }
-    public Iterator iterator() {
+    public Iterator<Entry> iterator() {
         return dir.iterator();
     }
     public void accept(Visitor v) {
